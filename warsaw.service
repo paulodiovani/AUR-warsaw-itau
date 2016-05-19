@@ -1,0 +1,12 @@
+[Unit]
+Description=Warsaw
+After=syslog.target remote-fs.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/warsaw/core
+Restart=on-failure
+LimitNOFILE=10000
+
+[Install]
+WantedBy=multi-user.target
