@@ -1,5 +1,9 @@
 # WARSAW Archlinux package
 
+> :warning: This project is currently not being maintained.
+> You can fork it and change according, and/or take a look
+> at https://aur.archlinux.org/packages/warsaw
+
 This package install the [warsaw][2] software libs and daemon on an 
 [Archlinux][1] system.
 
